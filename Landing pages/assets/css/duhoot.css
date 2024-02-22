@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-image: url('../images/hero.jpeg');
+	background-size: cover;
+}
+
+.height {
+	height: 60px;
+}
+
+.height1 {
+	height: 20px;
+}
+
+nav {
+	display: flex;
+}
+
+#search {
+	background: lightgrey;
+	width: 60px;
+	text-align: center;
+}
+
+#user {
+	background: red;
+	width: 100px;
+	color: white;
+}
+
+.para1 {
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	margin-right: 5px;
+}
+
+.select1 {
+	border-radius: 26px;
+	background: transparent;
+}
+
+.input1 {
+	width: 50%;
+	border-radius: 373px;
+	padding: 14px;
+	background: transparent;
+}
+
+.btn {
+	width: 140px;
+}
+
+a {
+	margin-top: 20px;
+}
+
+.select3 {
+	text-align: left;
+	border-radius: 20px;
+}
+
+#para {
+	color: gray;
+	padding-top: 15px;
+	font-size: large;
+}
+
+.col {
+	display: inline-block;
+}
+
+.list {
+	list-style: none;
+
+}
+
+li {
+	margin-right: 15px;
+}
+
+.height2 {
+	height: 80px;
+}
+
+#btn {
+	width: 111px;
+	height: 42px;
+	position: relative;
+	right: 118px;
+	top: -8px;
+}
+
+footer {
+	background-image: url('../images/footer_06.jpg');
+	background-size: cover;
+	color: white;
+}
+
+#justify {
+	justify-content: center;
+	margin-top: 4px;
+}
+
+.login {
+	bottom: 40px;
+	left: 60px;
+	width: 128px;
+	box-sizing: content-box;
+	height: 39px;
+	border: none;
+	padding-bottom: -2px;
+	background-color: red;
+	position: relative;
+}
+
+#search1 {
+	font-size: 23px;
+	width: 60px;
+	text-align: center;
+}
+
+@media(max-width:992px) {
+	.res {
+		margin-bottom: 20px;
+		justify-content: center;
+	}
+
+	.small {
+		width: 20rem;
+	}
+
+	.bheight {
+		line-height: 05px;
+	}
+}
+
+@media(max-width:425px) {
+	.card-pad {
+		top: 23px;
+	}
+
+	.input1 {
+		display: none;
+	}
+
+	.btn {
+		display: none;
+	}
+
+	.card-bot {
+		bottom: 23px;
+	}
+}
+
+@media(max-width:425px) {
+	.list {
+		padding-left: 0;
+	}
+}
